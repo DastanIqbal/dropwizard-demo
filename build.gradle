@@ -10,7 +10,7 @@ repositories {
 }
 
 project.ext {
-    configPath = "$rootProject.projectDir/config/"
+    configPath = "$rootProject.projectDir/src/dist/bin/"            //to copy in final dist/bin folder app config
     dropwizardVersion = '1.0.3'
 }
 
@@ -24,3 +24,14 @@ mainClassName = "com.dastan.DropwizardDemoApplication"
 run {
     args 'server', configPath + 'app_config.yml'
 }
+
+//distZip {
+//    into(project.name) {
+//        from '.'
+//        include 'conf/*'
+//    }
+//}
+//
+//applicationDistribution.from("src/main/config/") {
+//    into "config"
+//}
