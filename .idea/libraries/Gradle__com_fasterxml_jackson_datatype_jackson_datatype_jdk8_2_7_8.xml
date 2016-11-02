@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.7.8">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/2.7.8/563a2c4530c7f6855269a6ed6ce1ff5158fcedaa/jackson-datatype-jdk8-2.7.8.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/2.7.8/52264bfc3997f67ceb5048eb7797129807c5b09a/jackson-datatype-jdk8-2.7.8-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
