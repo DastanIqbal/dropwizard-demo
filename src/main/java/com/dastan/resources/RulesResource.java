@@ -1,6 +1,8 @@
-package com.dastan.rule;
+package com.dastan.resources;
 
 import com.codahale.metrics.annotation.Timed;
+import com.dastan.core.Rule;
+import com.dastan.repository.RulesRepository;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;

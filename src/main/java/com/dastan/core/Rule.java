@@ -1,4 +1,4 @@
-package com.dastan.rule;
+package com.dastan.core;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

@@ -1,7 +1,6 @@
 package com.dastan.repository;
 
-import com.dastan.rule.Rule;
-import com.dastan.rule.RulesRepository;
+import com.dastan.core.Rule;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import io.dropwizard.jackson.Jackson;
