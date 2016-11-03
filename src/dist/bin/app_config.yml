@@ -37,7 +37,7 @@ database:
     driverClass: com.mysql.cj.jdbc.Driver
     user: root
     password: mundio
-    url: jdbc:mysql://localhost/peoples
+    url: jdbc:mysql://localhost/peoples?nullNamePatternMatchesAll=true
 #database:
 
   # the name of your JDBC driver

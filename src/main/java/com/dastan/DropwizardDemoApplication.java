@@ -11,6 +11,7 @@ import com.dastan.resources.RulesResource;
 import io.dropwizard.Application;
 import io.dropwizard.db.DataSourceFactory;
 import io.dropwizard.hibernate.HibernateBundle;
+import io.dropwizard.migrations.MigrationsBundle;
 import io.dropwizard.setup.Bootstrap;
 import io.dropwizard.setup.Environment;
 import org.slf4j.Logger;
@@ -42,6 +43,12 @@ public class DropwizardDemoApplication extends Application<AppConfiguration> {
         // nothing to do yet
         //add Bundle,Command, register jackson moudles
         bootstrap.addBundle(hibernateBundle);
+        bootstrap.addBundle(new MigrationsBundle<AppConfiguration>() {
+            @Override
+            public DataSourceFactory getDataSourceFactory(AppConfiguration configuration) {
+                return configuration.getDataSourceFactory();
+            }
+        });
     }
 
     @Override

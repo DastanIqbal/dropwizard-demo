@@ -20,6 +20,8 @@ dependencies {
     compile group: 'io.dropwizard.metrics', name: 'metrics-core', version: '3.1.2'
     compile group: 'mysql', name: 'mysql-connector-java', version: '6.0.5'
     compile group: 'io.dropwizard', name: 'dropwizard-hibernate', version: dropwizardVersion
+    compile 'org.liquibase:liquibase-core:3.5.3'
+    compile "io.dropwizard:dropwizard-migrations:$dropwizardVersion"
 }
 
 mainClassName = "com.dastan.DropwizardDemoApplication"
